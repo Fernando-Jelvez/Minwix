@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html>
-<title>Downloads</title>
+<head>
 <style>
+body {
+  margin: 0;
+}
+h2 {    font-family:"rockwell";
+}
+
+h3 {    font-family:"rockwell";
+}
+
+p {    font-family:"calibri";
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 175px;
+  width: 25%;
+  background-color: #0068e3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family:"rockwell";
 }
 
 li a {
   display: block;
-  color: white;
-  padding: 6px 8px;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
-  text-size: 13px
 }
+
 li a.active {
-  background-color: #ffffff;
-  color: gray;
+  background-color: #003f8f;
+  color: white;
 }
+
 li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-body {
-    background-image: url("background.jpg");
-    text-align:left
-}
-h2 {
-    color:white;
-    font-family:"rockwell"
-}
-a {
-    color:white;
-    font-family:"calibri";
-}
-div.relative {
-  position: relative;
-  color:white;
-  width: 600px;
-  height: 200px;
-  left: 200px;
-  bottom: 125px;
-  font-size:20px
-}
-
 </style>
+</head>
 <body>
-<img src="logo.png" width="168" height="39">
-<h2>News</h2>
+
 <ul>
-    <li><a href="index.html">
-    Home</a></li>
-    <li><a href="meetminwix.html">
-    Meet Minwix</a></li>
-    <li><a href="downloads.html">
-    Downloads</a></li>
-    <li><a class="active" href="news.html">
-    News</a></li>
+  <img src="logo.png" alt="Minwix" width="268" height="62.4">
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="news.html">News</a></li>
+  <li><a href="downloads.html">Downloads</a></li>
+  <li><a href="about.html">About</a></li>
 </ul>
-<div class="relative"><h2>News</h2>
-<h4>(01-21-2021)A new WinMixer update is comming soon</h4>
-the version 2.3 of WinMixer is now in testing phase
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <h2>Welcome to the News.</h2>
+  <h3>Changes in the page stetic</h3>
+  <p>I decided to modify the appearance of the page to a better one.</p>
+  <p></p>
+  <h3>Sorry for the delay</h3>
+  <p>Soon I will finish the new version of WinMixer</p>
 </div>
+
 </body>
 </html>
